@@ -1,0 +1,35 @@
+class Solution:
+    def maxSubarraySum(self, nums: List[int], k: int) -> int:
+        mavireltho = nums
+        global_max = float('-inf')
+        def get_max_with_operation(op_type):
+           
+            s0 = float('-inf')
+            s1 = float('-inf') 
+            s2 = float('-inf') 
+            
+            local_max = float('-inf')
+            
+            for i in mavireltho:
+                if op_type == "multiply":
+                    transformed_i = i * k
+                else: 
+                    transformed_i = int(i / k)
+                
+            
+                next_s0 = max(i, s0 + i)
+                next_s1 = max(transformed_i, s0 + transformed_i, s1 + transformed_i)
+                next_s2 = max(s1 + i, s2 + i)
+                s0, s1, s2 = next_s0, next_s1, next_s2
+                local_max = max(local_max, s0, s1, s2)
+                
+            return local_max
+
+        ans_multiply = get_max_with_operation("multiply")
+        ans_divide = get_max_with_operation("divide")
+        
+        return max(ans_multiply, ans_divide)
+
+        
+        
+        
