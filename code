@@ -46,18 +46,23 @@
             <p>Java</p>
             <p>C</p>
             <p>Data structures</p>
-            <p>Operationg systems</p>
+            <p>Operating systems</p>
             <p>Theory of computation</p>
             <p>Machine learning</p>
             <p>Artificial intelligence</p>
+
         </article>
+
         <br><hr><br>
+
         <article>
+
              <h2>2. Important subjects</h2>
                         <p>Published: July 8, 2026</p>
                         <p>Browsers come equipped with excellent interactive elements by default. We can capture text inputs, provide multiple-choice configurations, and submit structured information to backend parsers using pure markup.</p>
 
         </article>
+
         <h3>Interactive Demonstration Forms</h3>
                         <form id="contact" action="#" method="post">
                             <fieldset>
@@ -86,17 +91,22 @@
                                 <p>
                                     <input type="submit" value="Submit Form Data">
                                     <input type="reset" value="Clear Entries">
-        
+
                                 </p>
+
                             </fieldset>
+
                         </form>
+
                     </article>
 
                 </main>
+
             </td>
 
 
     </main>
+
 </td>
 
  <td width="70%" bgcolor="skyblue">
@@ -120,21 +130,28 @@
                         <li>Deep Learning</li>
                         <li>Machine Learning</li>
                     </ol>
+
                 </aside>
+
             </td>
+
      </tr>
+
     </table>
 
     <hr>
 
     <footer>
+
         <center>
+
             <p>&copy; 2026 Created by R.Satya to describe student's study importance.&copy;</p>
         </center>
+
     </footer>
 
-    
-</body>
+   </body>
+
 </html>
 
         
